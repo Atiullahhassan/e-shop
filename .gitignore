@@ -1,10 +1,17 @@
-# dependencies
+# --- Sensitive Data & Security ---
+# Protects your JWT secret and DB credentials
+.env
 backend/config/.env
-backend/uploads
-frontend/node_modules
-backend/node_modules
-socket/node_modules
 
+# --- Dependencies ---
+# Keeps the repo light and professional
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+socket/node_modules/
+
+# --- Logs and Uploads ---
+backend/uploads/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
