@@ -1,5 +1,5 @@
 {
-  "name": "e-shop-multi-vendor",
+  "name": "e-shop",
   "version": "1.0.0",
   "main": "server.js",
   "engines": {
@@ -10,7 +10,7 @@
     "start": "node server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
   },
-  "author": "Om Prakash Pattjoshi",
+  "author": "atiullah hassan",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
